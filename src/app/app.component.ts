@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'data-binding';
+  title = 'This is data-binding';
+
+  string = "String Interpollation Example"
 
   no: number = 0;
 
