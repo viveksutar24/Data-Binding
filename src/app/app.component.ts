@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'data-binding';
+
+  no: number = 0;
+
+  constructor() {
+    setInterval(() => {
+      this.no++;
+    }, 1000)
+  }
+
 }
+
+
